@@ -16,7 +16,7 @@ import java.sql.Statement;
 
 /**
  *
- * @author Ngoc Dũng
+ * @author ADMIN
  */
 public class QLNhaniVien {
 

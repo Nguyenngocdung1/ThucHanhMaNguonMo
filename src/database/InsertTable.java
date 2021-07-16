@@ -8,12 +8,12 @@ package database;
 
 /**
  *
- * @author Ngọc Dũng
+ * @author ADMIN
  */
 public class InsertTable {
     ConnectCSDL conn = new ConnectCSDL();
     public void Insert_NhanVien(){
-        String sql = "INSERT INTO NHANVIEN VALUES('NV01','Nguyễn Hoàng','16/01/2000','Nghệ An','0123412','Nam')\n";
+        String sql = "INSERT INTO NHANVIEN VALUES('NV01','Nguyễn Dũng','11/05/2000','Ba Vì','0123412','Nam')\n";
         String sql1 = "INSERT INTO NHANVIEN VALUES('NV02','Nguyễn Khánh','26/01/2002','Hà Nội','0122412','Nam')\n";
         conn.doSQL(sql);
         conn.doSQL(sql1);

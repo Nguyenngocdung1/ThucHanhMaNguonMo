@@ -12,12 +12,14 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+
 /**
  *
- * @author Ngoc Dung
+ * @author ADMIN
  */
 public class QLChiTietHoaDon {
-     ConnectCSDL cn = new ConnectCSDL();
+
+    ConnectCSDL cn = new ConnectCSDL();
   
     public ResultSet GetDataQLChiTietHD() throws SQLException
     {
@@ -66,5 +68,6 @@ public class QLChiTietHoaDon {
     public void addChiTietHD(String text, String text0, String text1, int parseInt, String text2, int parseInt0) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
     
 }

@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Ngọc Dũng
+ * @author TONG LE TU VAN
  */
 public class ConnectCSDL {
     public Connection con=null;    
@@ -27,9 +27,9 @@ public class ConnectCSDL {
     public void getConnect() 
     {
         try{
-            String url="jdbc:derby://localhost:1527/QuanLyHoaDon";
-            String user="administrator";
-            String pass="12";
+            String url="jdbc:derby://localhost:1527/QuanLyBanHang";
+            String user="admin1";
+            String pass="1";
             Class.forName("org.apache.derby.jdbc.ClientDriver");
             con=(Connection)DriverManager.getConnection(url, user, pass);
         }

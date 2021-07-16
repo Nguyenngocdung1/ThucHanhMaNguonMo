@@ -7,7 +7,7 @@ package chuongtrinhquanly;
 
 /**
  *
- * @author Ngọc Dũng
+ * @author ADMIN
  */
 public class Bai2_Module4 extends javax.swing.JFrame {
 
@@ -139,8 +139,6 @@ public class Bai2_Module4 extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Bai2_Module4.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 

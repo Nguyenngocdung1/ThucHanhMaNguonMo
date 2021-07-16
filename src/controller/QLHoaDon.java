@@ -15,7 +15,7 @@ import java.sql.Statement;
 
 /**
  *
- * @author Ngoc Dung
+ * @author ADMIN
  */
 public class QLHoaDon {
 

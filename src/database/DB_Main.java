@@ -7,7 +7,7 @@ package database;
 
 /**
  *
- * @author Ngọc Dũng
+ * @author DungxBuif
  */
 public class DB_Main {
 
